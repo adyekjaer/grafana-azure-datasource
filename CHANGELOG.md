@@ -6,7 +6,7 @@ Change history of the project. All the feature updates, bug fixes, breaking chan
 
 - First stable version
 - Sample dashboard included
-- **Breaking Change** : Plugin ID, Name changed. Refer [#13](https://github.com/yesoreyeram/grafana-azure-datasource/issues/13)
+- **Breaking Change** : Plugin ID, Name changed. Refer [#13](https://github.com/DFE_Digital/grafana-azure-datasource/issues/13)
 
 ## [ 0.0.1 ]
 

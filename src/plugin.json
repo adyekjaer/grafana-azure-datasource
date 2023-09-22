@@ -1,6 +1,6 @@
 {
   "name": "Azure Plus",
-  "id": "yesoreyeram-azure-datasource",
+  "id": "DFE_Digital-azure-datasource",
   "type": "datasource",
   "category": "cloud",
   "metrics": true,
@@ -8,13 +8,9 @@
     "version": "%VERSION%",
     "updated": "%TODAY%",
     "description": "Azure Plus datasource",
-    "author": {
-      "name": "Sriramajeyam Sugumaran",
-      "url": "https://www.google.com/search?q=Sriramajeyam+Sugumaran"
-    },
     "logos": {
-      "small": "img/yesoreyeram-azure-datasource-logo.jpg",
-      "large": "img/yesoreyeram-azure-datasource-logo.jpg"
+      "small": "img/DFE_Digital-azure-datasource-logo.jpg",
+      "large": "img/DFE_Digital-azure-datasource-logo.jpg"
     },
     "keywords": [
       "azure",
@@ -28,7 +24,7 @@
     "links": [
       {
         "name": "Github",
-        "url": "https://github.com/yesoreyeram/grafana-azure-datasource"
+        "url": "https://github.com/DFE_Digital/grafana-azure-datasource"
       }
     ]
   },

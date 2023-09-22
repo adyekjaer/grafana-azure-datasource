@@ -1,8 +1,8 @@
 # Grafana Azure Plus Datasource
 
-![Build & Publish](https://github.com/yesoreyeram/grafana-azure-datasource/workflows/Build%20&%20Publish/badge.svg?branch=master)
+![Build & Publish](https://github.com/DFE_Digital/grafana-azure-datasource/workflows/Build%20&%20Publish/badge.svg?branch=master)
 
-Grafana **Azure plus** datasource plugin provides additional azure capabilities to grafana. For examples and screenshots, refer [here](https://github.com/yesoreyeram/grafana-azure-datasource/issues/5).
+Grafana **Azure plus** datasource plugin provides additional azure capabilities to grafana. For examples and screenshots, refer [here](https://github.com/DFE_Digital/grafana-azure-datasource/issues/5).
 
 ## Features
 
@@ -24,14 +24,14 @@ There are multiple ways to install this plugin
 
 #### Download and extract zip file
 
-Download the zip file from [github](https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip) and extract into your grafana plugin folder. Then restart Grafana.
+Download the zip file from [github](https://github.com/DFE_Digital/grafana-azure-datasource/archive/master.zip) and extract into your grafana plugin folder. Then restart Grafana.
 
 #### Using grafana-cli
 
 If you are using grafana-cli, execute the following command to install the plugin
 
 ```
-grafana-cli --pluginUrl https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip plugins install yesoreyeram-azure-datasource
+grafana-cli --pluginUrl https://github.com/DFE_Digital/grafana-azure-datasource/archive/master.zip plugins install DFE_Digital-azure-datasource
 ```
 #### Using helm chart
 
@@ -39,7 +39,7 @@ If you use help chart to provision grafana, use the following config to install 
 
 ```
 plugins:
-  - https://github.com/yesoreyeram/grafana-azure-datasource/archive/master.zip;yesoreyeram-azure-datasource
+  - https://github.com/DFE_Digital/grafana-azure-datasource/archive/master.zip;DFE_Digital-azure-datasource
 ```
 
 ## Configuration
@@ -55,7 +55,7 @@ apiVersion: 1
 
 datasources:
 - name: <Datasource Name>
-  type: yesoreyeram-azure-datasource
+  type: DFE_Digital-azure-datasource
   access: proxy
   isDefault: false
   jsonData:
@@ -95,4 +95,4 @@ Following template variable queries are supported
 
 If the Resource graph query return two column, first column will be considered as display value and the second column will be considered as actual value. 
 
-Sample template variable queries are given [here](https://github.com/yesoreyeram/grafana-azure-datasource/issues/5#issuecomment-666500009).
+Sample template variable queries are given [here](https://github.com/DFE_Digital/grafana-azure-datasource/issues/5#issuecomment-666500009).

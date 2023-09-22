@@ -5,7 +5,7 @@
         "label": "AZP_PROD",
         "description": "",
         "type": "datasource",
-        "pluginId": "yesoreyeram-azure-datasource",
+        "pluginId": "DFE_Digital-azure-datasource",
         "pluginName": "Azure Plus"
       }
     ],
@@ -48,7 +48,7 @@
       },
       {
         "type": "datasource",
-        "id": "yesoreyeram-azure-datasource",
+        "id": "DFE_Digital-azure-datasource",
         "name": "Azure Plus",
         "version": "0.1.0"
       }
