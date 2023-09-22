@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/yesoreyeram/grafana-azure-datasource#readme",
   "dependencies": {
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@grafana/data": "6.6.1",
